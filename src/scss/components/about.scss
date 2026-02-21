@@ -1,17 +1,32 @@
-.about-section {
-  background: #0d0f0e;
+.about-characters-bg-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/about/about-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 
   @include media(desktop) {
+    max-width: 1440px;
+    background-image: url(../img/about/about-bg-desk.jpg);
   }
 }
 
+.about-section {
+}
+
 .about-bg-wrapper {
-  padding-top: 64px;
+  padding-top: 80px;
   padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 104px;
+    max-width: 1440px;
   }
 }
 
@@ -25,18 +40,47 @@
   }
 }
 
-.about-text {
-  font-family: 'Lora', sans-serif;
+.about-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+.about-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 343px;
+
+  @include media(desktop) {
+    max-width: 264px;
+  }
+}
+
+.about-img {
+  @include media(desktop) {
+  }
+}
+
+.about-item-text {
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
   text-align: center;
-  color: #cdf;
+  color: #19444d;
 
   @include media(desktop) {
     font-size: 18px;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }

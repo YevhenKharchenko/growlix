@@ -1,5 +1,5 @@
 .policy-section {
-  background: #152972;
+  background: #fffbe6;
   padding-top: 112px;
   padding-bottom: 60px;
 
@@ -10,37 +10,39 @@
 }
 
 .policy-main-title {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 1.3;
+  font-size: 32px;
+  line-height: 1.4;
+  text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: #19444d;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 52px;
+    font-size: 62px;
   }
 }
 
 .policy-title {
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   font-size: 20px;
-  line-height: 1.3;
-  color: #fff;
+  line-height: 1.4;
+  color: #19444d;
   margin-bottom: 16px;
 
   @include media(desktop) {
+    font-size: 26px;
   }
 }
 
 .policy-text {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
-  color: #fff;
+  color: #19444d;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -57,11 +59,11 @@
 }
 
 .policy-item {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
-  color: #fff;
+  color: #19444d;
   margin-bottom: 8px;
 
   &:last-child {
@@ -74,10 +76,10 @@
 }
 
 .policy-span {
-  color: #92adff;
+  color: #0040ff;
 }
 
 .policy-link {
-  color: #92adff;
+  color: #0040ff;
   word-wrap: break-word;
 }

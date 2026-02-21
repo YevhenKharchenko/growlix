@@ -1,0 +1,63 @@
+.characters-section {
+}
+
+.characters-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    max-width: 1440px;
+  }
+}
+
+.characters-container {
+  @include media(desktop) {
+  }
+}
+
+.characters-content-wrapper {
+  max-width: 224px;
+
+  @include media(desktop) {
+    max-width: 480px;
+    margin-left: 80px;
+  }
+}
+
+.characters-title {
+  text-align: left;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.characters-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #19444d;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.characters-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #19444d;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}

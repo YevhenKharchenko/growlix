@@ -16,9 +16,11 @@ gallerySwiper = new Swiper('.gallery-swiper-container', {
   grabCursor: true,
   breakpoints: {
     1440: {
-      slidesPerView: 'auto',
+      slidesPerView: 3,
       centeredSlides: false,
       spaceBetween: 32,
+      allowTouchMove: false,
+      grabCursor: false,
     },
   },
 

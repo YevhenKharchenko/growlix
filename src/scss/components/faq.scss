@@ -1,11 +1,25 @@
+.faq-contact-bg-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/faq/faq-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    background-image: url(../img/faq/faq-bg-desk.jpg);
+  }
+}
+
 .faq-section {
-  background: #0d0f0e;
   padding-top: 64px;
   padding-bottom: 64px;
 
   @include media(desktop) {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 104px;
+    padding-bottom: 104px;
   }
 }
 
@@ -15,11 +29,7 @@
 }
 
 .faq-title {
-  font-size: 52px;
-  margin-bottom: 48px;
-
   @include media(desktop) {
-    margin-bottom: 64px;
   }
 }
 
@@ -33,8 +43,9 @@
 }
 
 .faq-list-item {
-  background: #152972;
-  border-radius: 8px;
+  box-shadow: 4px 4px 12px 0 rgba(109, 109, 109, 0.25);
+  background: #fff;
+  border-radius: 12px;
   padding: 20px 16px;
   display: flex;
   flex-direction: column;
@@ -60,15 +71,15 @@
 }
 
 .faq-btn-text {
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.4;
-  color: #cdf;
+  color: #0c0d29;
   text-align: left;
 
   @include media(desktop) {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -91,11 +102,11 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
-  color: #cdf;
+  color: #525252;
   max-width: 287px;
   max-height: 0;
   overflow: hidden;
@@ -125,10 +136,4 @@
 }
 
 .faq-list-item.faq-open .faq-btn-text {
-}
-
-.faq-img {
-  box-shadow: 4px 4px 20px 0 rgba(142, 142, 142, 0.25);
-  border: 8px solid #fff;
-  border-radius: 36px;
 }

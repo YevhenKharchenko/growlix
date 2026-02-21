@@ -1,0 +1,78 @@
+.villains-section {
+  @include media(desktop) {
+  }
+}
+
+.villains-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  @include media(desktop) {
+    padding-top: 104px;
+    padding-bottom: 104px;
+  }
+}
+
+.villains-container {
+  @include media(desktop) {
+  }
+}
+
+.villains-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 112px;
+  }
+}
+
+.villains-text-wrapper {
+  @include media(desktop) {
+    max-width: 480px;
+  }
+}
+
+.villains-title {
+  text-align: left;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.villains-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #19444d;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.villains-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #19444d;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.villains-img {
+  @include media(desktop) {
+    min-width: 640px;
+  }
+}
