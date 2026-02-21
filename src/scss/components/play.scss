@@ -1,0 +1,84 @@
+.play-section {
+  background: linear-gradient(180deg, #152972 0%, #480d8e 100%);
+}
+
+.play-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 438px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/play/play-img-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+    background-image: url(../img/play/play-img-desk.jpg);
+    background-position: center right;
+  }
+}
+
+.play-container {
+  @include media(desktop) {
+  }
+}
+
+.play-title {
+  text-align: left;
+
+  @include media(desktop) {
+  }
+}
+
+.play-text {
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #cdf;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    max-width: 592px;
+  }
+}
+
+.play-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: disc;
+  padding-left: 25px;
+  color: #cdf;
+
+  @include media(desktop) {
+  }
+}
+
+.play-list-item {
+  @include media(desktop) {
+  }
+}
+
+.play-item-text {
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #cdf;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.play-line-wrapper {
+  @include media(desktop) {
+    margin-left: 0;
+  }
+}
