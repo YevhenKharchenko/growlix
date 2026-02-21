@@ -1,5 +1,4 @@
 .context-menu {
-  background: #750d1a;
   display: none;
   justify-content: center;
   width: 100%;
@@ -11,6 +10,10 @@
   right: 0;
   transform: none;
   z-index: 5;
+  background-image: url(../img/context/context-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
 .context-nav {
@@ -30,9 +33,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4px 8px;
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
+  padding: 6px 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
@@ -40,7 +43,7 @@
   transition: color 0.3s ease-in-out;
 
   &:active {
-    color: #d8d8d8;
+    color: #ff5b02;
   }
 }
 

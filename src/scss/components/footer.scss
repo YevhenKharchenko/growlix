@@ -1,5 +1,6 @@
 .footer {
-  background: #0d0f0e;
+  background: #243d20;
+  border-top: 1px solid #ff5b02;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -35,8 +36,8 @@
 }
 
 .footer-link {
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
@@ -44,7 +45,7 @@
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   &:hover,
@@ -53,9 +54,9 @@
 }
 
 .footer-text {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
   text-align: center;
   color: #fff;

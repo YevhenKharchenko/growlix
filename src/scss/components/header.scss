@@ -1,5 +1,6 @@
 .header {
-  background: #750d1a;
+  background: rgba(18, 19, 31, 0.6);
+  border-bottom: 1px solid #ff5b02;
   padding: 6px 0;
   position: fixed;
   width: 100%;
@@ -45,9 +46,9 @@
 }
 
 .nav-list-link {
-  padding: 4px 8px;
-  font-family: 'Lora', sans-serif;
-  font-weight: 600;
+  padding: 6px 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
@@ -61,7 +62,7 @@
   &:focus,
   &:active,
   &.active {
-    color: #d8d8d8;
+    color: #ff5b02;
   }
 }
 
